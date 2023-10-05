@@ -20,10 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => {
             console.error('Une erreur s\'est produite :', error);
         });
-console.log('Contenu du fichier :', data);
-
-const chiffres = data.split('\n').map(Number).filter(Number.isInteger);
-console.log('Chiffres filtrés et triés :', chiffres);
 
 });
 
